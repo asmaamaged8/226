@@ -52,7 +52,7 @@ private static final String TAG = "PROFILE_TAG";
         binding.profileEditBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ProfileActivity.this, PdfEditActivity.class));
+                startActivity(new Intent(ProfileActivity.this, ProfileEditActivity.class));
             }
         });
 

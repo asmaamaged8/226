@@ -37,15 +37,16 @@
             android:textColor="@color/white"
             android:textStyle="bold"
             />
+
         <ImageButton
+            android:id="@+id/profileEditBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/profileEditBtn"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginEnd="10dp"
             android:background="@android:color/transparent"
-            android:src="@drawable/ic_edit_white"/>
+            android:src="@drawable/ic_edit_white" />
 
 
     </RelativeLayout>
